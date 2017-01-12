@@ -1,0 +1,2 @@
+﻿  Source.cpp
+c:\users\vdlei\documents\sae\rec\diseño\singleton\singleton\src\source.cpp(11): error C4700: uninitialized local variable 'inst' used
