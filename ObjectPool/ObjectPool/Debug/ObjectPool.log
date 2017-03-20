@@ -1,0 +1,9 @@
+﻿  Particle.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+c:\users\victor\documents\sae\7mo\diseño de sistemas de juego\objectpool\objectpool\main.cpp(13): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'clock_t'
+  ParticlePool.cpp
+  Generating Code...
+  ObjectPool.vcxproj -> C:\Users\Victor\Documents\SAE\7mo\DISEÑO DE SISTEMAS DE JUEGO\ObjectPool\Debug\ObjectPool.exe
+  ObjectPool.vcxproj -> C:\Users\Victor\Documents\SAE\7mo\DISEÑO DE SISTEMAS DE JUEGO\ObjectPool\Debug\ObjectPool.pdb (Partial PDB)
