@@ -122,7 +122,16 @@ InputManager InputManager::Dispatcher()
 			if (qTemp.type == it->type)
 			{
 				cout << qTemp.type << ", " << it->type << endl;
-
+				//aqui va el thread que ejecuta un callback
+				//TPool*ptp=TPool.getInstance();
+				//std::thread*pt=ptp.new();
+				/*if(!pt)
+				{
+					sleep();
+					continue();
+				}
+				pt.ejecutar thread para callback()
+				*/
 				if (it->Callback() == true)
 				{
 					break;
