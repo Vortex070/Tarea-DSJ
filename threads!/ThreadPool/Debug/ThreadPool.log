@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\victor\documents\sae\7mo\diseño de sistemas de juego\threads!\threadpool\src\main.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  ThreadPool.vcxproj -> C:\Users\Victor\Documents\SAE\7mo\DISEÑO DE SISTEMAS DE JUEGO\threads!\Debug\ThreadPool.exe
+  ThreadPool.vcxproj -> C:\Users\Victor\Documents\SAE\7mo\DISEÑO DE SISTEMAS DE JUEGO\threads!\Debug\ThreadPool.pdb (Partial PDB)
