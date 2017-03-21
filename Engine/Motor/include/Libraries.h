@@ -1,0 +1,13 @@
+#pragma once
+#include "InputManager.h"
+#include "AnimationManager.h"
+#include "UpdateManager.h"
+#include "RenderManager.h"
+#include "AudioManager.h"
+#include "VideoManager.h"
+#include "FileSystemManager.h"
+#include "MemoryManager.h"
+#include "PhysicsDynamicsManager.h"
+#include "PhysicsManager.h"
+#include "TextureManager.h"
+#include "VideoManager.h"
