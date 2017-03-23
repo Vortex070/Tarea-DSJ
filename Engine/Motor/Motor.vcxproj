@@ -34,6 +34,7 @@
     <ClCompile Include="src\InputManager.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\EventList.cpp" />
+    <ClCompile Include="src\TObj.cpp" />
     <ClCompile Include="src\TPool.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +51,7 @@
     <ClInclude Include="include\PhysicsManager.h" />
     <ClInclude Include="include\RenderManager.h" />
     <ClInclude Include="include\TextureManager.h" />
+    <ClInclude Include="include\TObj.h" />
     <ClInclude Include="include\TPool.h" />
     <ClInclude Include="include\UpdateManager.h" />
     <ClInclude Include="include\VideoManager.h" />

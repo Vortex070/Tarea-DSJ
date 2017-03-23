@@ -112,6 +112,7 @@ InputManager InputManager::Listener()
 
 InputManager InputManager::Dispatcher()
 {
+	TPool *pool = TPool::instance();
 	while (!Tail.empty())
 	{
 		qTemp = Tail.front();
@@ -124,23 +125,22 @@ InputManager InputManager::Dispatcher()
 				cout << qTemp.type << ", " << it->type << endl;
 
 				//aqui va el thread que ejecuta un callback
+				
+				TObj *obj = pool->New(it->Callback());
+				if (!pt)
+				{
+					Sleep(5);
+					continue;
+				}
+				obj->run(it->Callback());
+
 				if (it->Callback() == true)
 				{
-					thread *pt = new thread(ptp);
-					
-					if (!pt)
-					{
-						Sleep(5);
-						continue;
-					}
-					pt->join();
-					delete pt;
-
 					break;
 				}//if
 			}//if
 		}//for
 	}//dispatcher
-	
+	TPool.joinAll();
 	return InputManager();
 }

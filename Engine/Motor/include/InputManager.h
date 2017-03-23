@@ -31,8 +31,6 @@ public:
 	queue<Events> Tail;
 	list<EventList> List;
 
-	TPool *ptp;
-
 private:
 	InputManager() {}
 };
